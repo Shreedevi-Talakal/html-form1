@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> from2</title>
+        <style>
+    
+            fieldset{
+                
+                width: 300px;
+                height: 270px;
+                margin: 100px auto;
+                margin-top: 2px;
+                margin-bottom: 2px;
+                border-radius: 10%;
+                
+            }
+            legend{
+                font-size: xx-large;font-weight: 600 ; color: red;text-align: center;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+            label{
+                color: rgb(116, 4, 220); 
+            }
+            fieldset{
+                background-color: rgb(240, 220, 180);
+            }
+            a{
+                text-align:"center";
+            }
+
+            #one{
+                background-color: aquamarine;
+                font-size: 20px;
+            }
+            #one:hover{
+                background-color: blueviolet;
+            }
+        </style>
+    </head>
+    <body>
+        <from action="">
+            <fieldset style="border: 4px solid black; " >
+                <legend >Personal Details</legend>
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="fname">
+            <br><br>
+ 
+            <label for="mname">Middle Name</label>
+            <input type="text" id="mname" name="mname">
+            <br><br>
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lname">
+            <br><br>
+
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email">
+            <br><br>
+
+            <label for="dob">DOB</label>
+            <input type="date" id="dob" name="dob">
+            <br><br>
+            </fieldset>
+            <br><br>
+            <fieldset style="border: 4px solid black;">
+            <legend >Eductional Details</legend>
+
+            <label for="">Department</lebal>
+            <br><br>
+
+            <input type="radio" id="cs" name="dept">
+            <label for="cs">cs</label>
+
+            <input type="radio" id="civil" name="dept">
+            <label for="civil">civil</label>
+
+            <input type="radio" id="mech" name="dept">
+            <label for="mech">mech</label>
+            <br><br>
+
+             <label for="yop">YOG</label>
+             <input list="yog" id="yop" name="yop">
+             <datalist id="yog">
+                 <option>2018</option>
+                 <option>2019</option>
+                 <option>2020</option>
+                 <option>2021</option>
+                 <option>2022</option>
+                 <option>2023</option>
+
+             </datalist>
+             <br><br>
+
+             <lebal for="">Skills</lebal>
+             <br><br>
+
+             <input type="checkbox" id="html" name="html">
+             <label for="html">Html</label>
+             
+
+             
+             <input type="checkbox" id="css" name="css">
+             <label for="css">Css</label>
+           
+
+             
+             <input type="checkbox" id="javascript" name="javascript">
+             <label for="javascript">Javascript</label>
+             
+            </from>
+            <br><br>
+
+           </fieldset>
+           <br>
+           <a href="Message.html">
+            <center>
+            <input type="Submit" name="" id="one"></a>
+        </center>
+           
+    </body>
+</html>
